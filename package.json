@@ -1,0 +1,27 @@
+{
+  "name": "graphql-jsonph",
+  "version": "1.0.0",
+  "description": "A GraphQL implementation made by fetching JSONPlaceholder API",
+  "license": "MIT",
+  "keywords": [
+    "typescript"
+  ],
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
