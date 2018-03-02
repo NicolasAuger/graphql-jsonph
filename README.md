@@ -9,7 +9,9 @@ A GraphQL implementation by fetching JSONPlaceholder API Rest (with typescript)
 2. Une fois le projet lancé, dans l'interface GraphQL, tester une requête GraphQL comme ci-dessous:
 
 Cette requête GraphQL d'exemple permet de récupérer tous les utilisateurs, et l'id + title de tous leurs albums
-`{
+
+```
+{
     users {
         id,
         name,
@@ -22,10 +24,13 @@ Cette requête GraphQL d'exemple permet de récupérer tous les utilisateurs, et
             title
         }
     }
-}`
+}
+```
 
 Celle ci permet de récupérer tous les utilisateurs, leurs albums, et toutes les photos de cet album
-`{
+
+```
+{
     users {
         id,
         name,
@@ -44,4 +49,5 @@ Celle ci permet de récupérer tous les utilisateurs, leurs albums, et toutes le
             }
         }
     }
-}`
+}
+```
